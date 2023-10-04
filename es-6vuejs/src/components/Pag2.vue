@@ -49,5 +49,34 @@
     width: 70%;
     
 }
-
+@media (max-width: 1130px) {
+    .title-pag2{
+    font-size: 60px;
+    padding-top: 210px;
+    }
+    .text-pag2-first{
+        margin-top: 60px;
+    }
+}
+@media (max-width: 950px) {
+    .title-pag2{
+    padding-top: 180px;
+    }
+}
+@media (max-width: 820px) {
+    .title-pag2{
+    font-size: 50px;
+    width: 90%;
+    margin: auto;
+    }
+    .text-pag2, .text-pag2-first{
+        font-size: 24px;
+    }
+    .title-pag2,.text-pag2,.text-pag2-first{
+    margin: 0px 130px;
+    }
+    .text-pag2-first{
+        margin-top: 50px;
+    }
+}
 </style>

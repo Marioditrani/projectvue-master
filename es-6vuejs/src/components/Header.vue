@@ -1,5 +1,11 @@
-<script setup>
-
+<script >
+  export default{
+    data(){
+      return {
+        show: true
+      }
+    }
+  }
 </script>
 
 <template>
@@ -11,7 +17,8 @@
         <div class="user"><a href="#"><i class="bi bi-person"></i></a></div>
         <div class="bag"><a href="#"><i class="bi bi-bag"></i></a></div>
         <div class="menu"><a href="#">MENU</a></div>
-        <div class="menu"><a href="#"><i class="bi bi-list"></i></a></div>
+        <div class="menu" @click="show = !show"><a href="#"><i class="bi bi-list"></i></a></div>
+        <div class="menuside" v-if="show">hello</div>
     </div>
   </div>
 </template>
@@ -63,5 +70,13 @@
   font-size: 25px;
   display: flex;
   align-items: center;
+}
+.menuside{
+  display: none;
+  height: 100vh;
+  background-color: yellow;
+}
+@media (max-width: 870px) {
+  
 }
 </style>

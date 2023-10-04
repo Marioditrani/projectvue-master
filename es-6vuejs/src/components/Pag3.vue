@@ -47,8 +47,7 @@
                   </div>
                   <div class="content-card3">
                      <h4>73% MORE</h4>
-                     <h3>
-A GRACE yolk boasts 33.7g per 100g. When combined with our egg whites – the only egg-based product to do so – the protein concentration increases to 48g per 100g.</h3>
+                     <h3>A GRACE yolk boasts 33.7g per 100g. When combined with our egg whites – the only egg-based product to do so – the protein concentration increases to 48g per 100g.</h3>
                      <div class="buy-card"><a href="">BUY</a></div>
                   </div>
             </div>
@@ -63,7 +62,7 @@ A GRACE yolk boasts 33.7g per 100g. When combined with our egg whites – the on
 <style scoped lang="scss">
 @use "../assets/styles/general.scss";
  .pag3{
-    height: 2050px;
+    height: 2550px;
     background-color: #1a1a17;
  }
  .container{
@@ -94,12 +93,15 @@ A GRACE yolk boasts 33.7g per 100g. When combined with our egg whites – the on
  .card1-right{
    height: 100%;
    width: 40%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
  }
  .card1-right img{
-   max-width: 100%;
-   max-width: 600px;
-   height: auto;
+   width: 100%;
+   
  }
+ 
  .card1-left-top{
     display: flex;
     justify-content: center;
@@ -169,12 +171,12 @@ A GRACE yolk boasts 33.7g per 100g. When combined with our egg whites – the on
  }
  .card2-right{
    height: 100%;
-   width: 50%;
+   width: 60%;
+   
  }
  .card2-right img{
-   max-width: 100%;
-   max-width: 600px;
-   height: auto;
+   width: 80%;
+   
  }
  .card2-left-top{
     display: flex;
@@ -227,6 +229,7 @@ A GRACE yolk boasts 33.7g per 100g. When combined with our egg whites – the on
  .card3{
     display: flex;
     height: 550px;
+    margin-top: 100px;
  }
  .card3-left{
     height: 100%;
@@ -239,11 +242,12 @@ A GRACE yolk boasts 33.7g per 100g. When combined with our egg whites – the on
  .card3-right{
    height: 100%;
    width: 40%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
  }
  .card3-right img{
-   max-width: 100%;
-   max-width: 600px;
-   height: auto;
+   width: 100%;
  }
  .card3-left-top{
     display: flex;
@@ -293,4 +297,10 @@ A GRACE yolk boasts 33.7g per 100g. When combined with our egg whites – the on
    color: #ffffff;
    width: 70%;
  }
+ @media (max-width: 1470px) {
+  .card1-left, .card3-left{
+    width: 50%;
+  }
+  .card2-right{width: 60%;}
+}
 </style>

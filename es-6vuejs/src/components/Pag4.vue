@@ -6,7 +6,7 @@
   <div class="pag4">
     <div class="pag4-left">
         <h2>5 YEARS</h2>
-        <P>OF RESEARCH & DEVELOPMENT</p>
+        <p>OF RESEARCH & DEVELOPMENT</p>
     </div>
     <div class="pag4-right">
         <p class="p1">CERTIFIED LAB RESULTS</p>
@@ -42,8 +42,8 @@
 }
 .pag4-left p {
     font-size: 50px;
-    width: 50%;
-    margin-left: 60px;
+    width: 100%;
+    text-align: center;
 }
 .pag4-right{
     background-color: #999b81;
@@ -55,7 +55,7 @@
 .pag4-right p{
     font-size: 30px;
     width: 100%;
-    padding-left: 250px;
+    text-align: center;
     color: #FFFFFF;
     margin-bottom: 10px;
 }
@@ -76,5 +76,8 @@
 }
 .p6{
     opacity: .4;
+}
+@media (max-width: 1700px) {
+    
 }
 </style>
